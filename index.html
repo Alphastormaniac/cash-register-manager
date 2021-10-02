@@ -12,52 +12,54 @@
 
   </head>
   <body>
-       <section class="section">
-        <h1>Cash Register Manager</h1>
-        <p>Enter the bill amount and cash to know minimum number of notes to return.</p>
-        <div>
-            <div class="label">Bill Amount:</div>
-            <input type="number" id="bill-amount" > 
-            <button id="next-button">Next</button> 
-        </div>
-
-        <div class="cash-input">
-            <div class="label">Cash Given:</div>
-            <input type="number" id="cash-given" >
-            <button id="check-button">Check</button> 
-        </div>
-        <div class="error-message"></div>    
-
-        <div class="change-returned">
-            <div class="label">Return Change:</div>
-            <div id="output">
-                <table>
-                    <tr>
-                    <th>No.of Notes</td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    <td class="notes"></td>
-                    </tr>
-                    <tr>
-                    <th>Note</td>
-                    <td>2000</td>
-                    <td>500</td>
-                    <td>100</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>1</td>
-                    </tr>
-                </table>
+      <article class="wrapper">
+        <section class="section">
+            <h1>Cash Register Manager</h1>
+            <p>Enter the bill amount and cash to know minimum number of notes to return.</p>
+            <div>
+                <div class="label">Bill Amount:</div>
+                <input type="number" id="bill-amount" > 
+                <button id="next-button">Next</button> 
             </div>
-        </div>
-
-    </section>
-
+    
+            <div class="cash-input">
+                <div class="label">Cash Given:</div>
+                <input type="number" id="cash-given" >
+                <button id="check-button">Check</button> 
+            </div>
+            <div class="error-message"></div>    
+    
+            <div class="change-returned">
+                <div class="label">Return Change:</div>
+                <div id="output">
+                    <table>
+                        <tr>
+                        <th>No.of Notes</td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        </tr>
+                        <tr>
+                        <th>Note</td>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    
+        </section>
+    
+      </article>
      <script src="index.js"></script>
   </body>
 </html>
